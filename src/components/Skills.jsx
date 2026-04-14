@@ -16,18 +16,9 @@ const Skills = ({ searchQuery = "", viewMode = "grid" }) => {
             skills: [
                 { name: "Node.js", val: 95, color: "bg-[#339933]" },
                 { name: "Express", val: 95, color: "bg-[#000000]" },
-                { name: "Xano (No-Code)", val: 90, color: "bg-[#007AFF]" },
                 { name: "RESTful API Design", val: 95, color: "bg-[#5856D6]" },
+                { name: "Xano", val: 90, color: "bg-[#007AFF]" },
                 { name: "Microservices Architecture", val: 90, color: "bg-[#AF52DE]" }
-            ]
-        },
-        {
-            title: "Frontend Development",
-            skills: [
-                { name: "Vue.js", val: 90, color: "bg-[#42B883]" },
-                { name: "AngularJS", val: 85, color: "bg-[#E23237]" },
-                { name: "HTML / CSS", val: 95, color: "bg-[#E34F26]" },
-                { name: "Bootstrap", val: 90, color: "bg-[#7952B3]" }
             ]
         },
         {
@@ -41,8 +32,11 @@ const Skills = ({ searchQuery = "", viewMode = "grid" }) => {
         {
             title: "Cloud Computing & DevOps",
             skills: [
-                { name: "AWS (Lambda, ECR, EC2, S3)", val: 90, color: "bg-[#FF9900]" },
+                { name: "AWS Lambda", val: 90, color: "bg-[#FF9900]" },
+                { name: "AWS ECR", val: 90, color: "bg-[#FF9900]" },
                 { name: "AWS Cognito", val: 85, color: "bg-[#FF9900]" },
+                { name: "EC2", val: 85, color: "bg-[#FF9900]" },
+                { name: "S3", val: 90, color: "bg-[#FF9900]" },
                 { name: "Docker", val: 85, color: "bg-[#2496ED]" }
             ]
         },
@@ -50,8 +44,19 @@ const Skills = ({ searchQuery = "", viewMode = "grid" }) => {
             title: "AI & Machine Learning",
             skills: [
                 { name: "LLMs Integration", val: 95, color: "bg-[#FF9500]" },
-                { name: "YOLO v3 Object Detection", val: 90, color: "bg-[#FF3B30]" },
-                { name: "Pre-trained ML Deployment", val: 85, color: "bg-[#FFCC00]" }
+                { name: "YOLO v3 for Image Object Detection", val: 90, color: "bg-[#FF3B30]" },
+                { name: "Pre-trained ML Models Deployment", val: 85, color: "bg-[#FFCC00]" }
+            ]
+        },
+        {
+            title: "Frontend Development",
+            skills: [
+                { name: "Vue.js", val: 90, color: "bg-[#42B883]" },
+                { name: "React", val: 90, color: "bg-[#61DAFB]" },
+                { name: "HTML", val: 95, color: "bg-[#E34F26]" },
+                { name: "CSS", val: 95, color: "bg-[#1572B6]" },
+                { name: "Bootstrap", val: 90, color: "bg-[#7952B3]" },
+                { name: "Bubble", val: 85, color: "bg-[#000000]" }
             ]
         },
         {
@@ -63,10 +68,14 @@ const Skills = ({ searchQuery = "", viewMode = "grid" }) => {
             ]
         },
         {
-            title: "Workflow & Tools",
+            title: "Workflow & Portfolio Tools",
             skills: [
-                { name: "Bitbucket / GitHub", val: 95, color: "bg-[#24292E]" },
-                { name: "Slack / ClickUp / Jira", val: 90, color: "bg-[#4A154B]" },
+                { name: "Bitbucket", val: 95, color: "bg-[#24292E]" },
+                { name: "GitHub", val: 95, color: "bg-[#24292E]" },
+                { name: "Slack", val: 90, color: "bg-[#4A154B]" },
+                { name: "ClickUp", val: 90, color: "bg-[#4A154B]" },
+                { name: "Jira", val: 90, color: "bg-[#4A154B]" },
+                { name: "ZOHO", val: 85, color: "bg-[#4A154B]" },
                 { name: "Swagger (API Documentation)", val: 90, color: "bg-[#85EA2D]" }
             ]
         }

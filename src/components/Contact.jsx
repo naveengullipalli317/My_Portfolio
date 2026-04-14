@@ -1,5 +1,5 @@
 import React from 'react';
-import { Mail, Linkedin, Github, Phone, ChevronRight } from 'lucide-react';
+import { Mail, Linkedin, Github, Phone, ChevronRight, MapPin } from 'lucide-react';
 
 const AppleMailIcon = ({ className }) => (
     <svg viewBox="0 0 64 64" fill="none" xmlns="http://www.w3.org/2000/svg" className={className}>
@@ -26,9 +26,10 @@ const AppleMailIcon = ({ className }) => (
 const Contact = ({ searchQuery = "", viewMode = "list" }) => {
     const contacts = [
         { label: "Phone", icon: <Phone className="w-4 h-4" />, bg: "bg-[#34C759]", link: "tel:+918125290192", external: false },
-        { label: "Email", icon: <Mail className="w-4 h-4" />, bg: "bg-[#007AFF]", link: "mailto:naveen.gullipalli29@gmail.com", external: false },
+        { label: "Email", icon: <Mail className="w-4 h-4" />, bg: "bg-[#007AFF]", link: "mailto:Naveengullipalli317@gmail.com", external: false },
         { label: "LinkedIn", icon: <Linkedin className="w-4 h-4" />, bg: "bg-[#0077B5]", link: "https://www.linkedin.com/in/naveen-gullipalli/", external: true },
-        { label: "GitHub", icon: <Github className="w-4 h-4" />, bg: "bg-[#1d1d1f]", link: "https://github.com/naveengullipalli", external: true }
+        { label: "GitHub", icon: <Github className="w-4 h-4" />, bg: "bg-[#1d1d1f]", link: "https://github.com/naveengullipalli317", external: true },
+        { label: "Address", icon: <MapPin className="w-4 h-4" />, bg: "bg-[#FF3B30]", link: "https://maps.google.com/?q=Bachupally", external: true }
     ];
 
     const filtered = contacts.filter(c =>

@@ -2,11 +2,6 @@ import React from 'react';
 import { Star } from 'lucide-react';
 
 const About = ({ searchQuery = "", viewMode = "list" }) => {
-    const summaryPoints = [
-        "Well-versed Software Developer with over 4+ years of professional experience specialising in backend and full-stack development. Proficient in JavaScript, Node.js, MongoDB, AWS services, and no-code platforms like Xano, bubble and Flutterflow.",
-        "Skilled in building scalable REST APIs, developing serverless applications, and deploying ML models to production. Experienced in cloud computing, AI integrations, and modern web technologies, ensuring efficient and innovative solutions.",
-        "Adept at working in Agile environments, applying Scrum methodologies to drive collaborative development, iterative improvements, and efficient project delivery."
-    ];
 
     return (
         <div className="space-y-4">
@@ -16,7 +11,7 @@ const About = ({ searchQuery = "", viewMode = "list" }) => {
                 </div>
                 <div className="text-center md:text-left flex-1 min-w-0">
                     <h1 className="text-3xl font-extrabold tracking-tight text-[#1d1d1f]">Naveen Gullipalli</h1>
-                    <p className="text-[#86868b] font-medium text-lg mt-0.5">Sr. Software Developer & Architect</p>
+                    <p className="text-[#86868b] font-medium text-lg mt-0.5">Lead Software Engineer – Backend, AI & Cloud Systems</p>
                 </div>
             </div>
 
@@ -25,12 +20,14 @@ const About = ({ searchQuery = "", viewMode = "list" }) => {
                     <Star className="w-4 h-4 text-[#FFCC00]" /> Profile Summary
                 </h3>
                 <div className="space-y-2.5">
-                    {summaryPoints.map((point, i) => (
-                        <div key={i} className="flex gap-2.5 items-start">
-                            <div className="w-1 h-1 rounded-full bg-[#FFCC00] mt-2 shrink-0" />
-                            <p className="text-[13px] leading-relaxed text-[#1d1d1f] font-medium">{point}</p>
-                        </div>
-                    ))}
+                    <div className="flex gap-2.5 items-start">
+                        <div className="w-1 h-1 rounded-full bg-[#FFCC00] mt-2 shrink-0" />
+                        <p className="text-[13px] leading-relaxed text-[#1d1d1f] font-medium">Software Developer with 4+ years of experience in backend and full-stack development. Skilled in JavaScript, Node.js, Express, MongoDB, AWS, and no-code platforms (Xano, Bubble, Flutterflow).</p>
+                    </div>
+                    <div className="flex gap-2.5 items-start">
+                        <div className="w-1 h-1 rounded-full bg-[#FFCC00] mt-2 shrink-0" />
+                        <p className="text-[13px] leading-relaxed text-[#1d1d1f] font-medium">Experienced in building scalable REST APIs, serverless applications, and deploying ML models. Strong in cloud computing, AI integrations, and Agile (Scrum) workflows to deliver efficient, modern solutions.</p>
+                    </div>
                 </div>
 
                 <div className="mt-6 flex justify-center md:justify-start">

@@ -227,7 +227,7 @@ const App = () => {
       icon: <User className="w-7 h-7" />,
       theme: "from-[#007AFF] to-[#00C6FF]",
       content: <About />,
-      items: ["Naveen Gullipalli", "Sr. Software Developer", "Architect", "Backend Development", "Full-stack", "Node.js", "MongoDB", "AWS", "Xano", "Agile", "Scrum"]
+      items: ["Naveen Gullipalli", "Lead Software Engineer", "Backend", "AI", "Cloud Systems", "Node.js", "MongoDB", "AWS", "Xano", "Agile", "Scrum"]
     },
     skills: {
       title: "Skills",
@@ -248,7 +248,7 @@ const App = () => {
       icon: <Briefcase className="w-7 h-7" />,
       theme: "from-[#FF9500] to-[#FFCC00]",
       content: <Experience />,
-      items: ["Sr. Software Developer", "Hiringhood", "Must Anlaytics GmbH", "Lodgit Desk Hotel software", "Teaching Assistant", "Hyderabad", "Berlin", "Leipzig", "Magdeburg", "SQL", "MySQL", "Object Detection", "YOLO v3"]
+      items: ["Senior Backend Engineer", "Software developer", "Associate Developer", "Teaching Assistant", "Hiringhood", "Must Analytics", "Lodgit Desk", "Otto-Von-Guericke", "Hyderabad", "Berlin", "Leipzig", "Magdeburg"]
     },
     education: {
       title: "Education",
@@ -262,7 +262,7 @@ const App = () => {
       icon: <AppleMailIcon className="w-full h-full" />,
       theme: "from-[#4BBFFF] to-[#007AFF]",
       content: <Contact />,
-      items: ["Phone", "Email", "LinkedIn", "GitHub", "naveen.gullipalli29@gmail.com", "+91-8125290192"]
+      items: ["Phone", "Email", "LinkedIn", "GitHub", "Naveengullipalli317@gmail.com", "+91-8125290192"]
     },
     help: {
       title: "Portfolio Help",
@@ -391,10 +391,10 @@ const App = () => {
             },
             {
               label: "Edit", items: [
-                { label: "Copy Bio", onClick: () => navigator.clipboard.writeText("Well-versed Software Developer with over 4+ years of professional experience specialising in backend and full-stack development.") },
-                { label: "Copy Email", onClick: () => navigator.clipboard.writeText("naveen.gullipalli29@gmail.com") },
+                { label: "Copy Bio", onClick: () => navigator.clipboard.writeText("Lead Software Engineer with 4+ years of experience in backend and full-stack development. Skilled in JavaScript, Node.js, Express, MongoDB, AWS, and no-code platforms.") },
+                { label: "Copy Email", onClick: () => navigator.clipboard.writeText("Naveengullipalli317@gmail.com") },
                 { label: "Copy LinkedIn URL", onClick: () => navigator.clipboard.writeText("https://www.linkedin.com/in/naveen-gullipalli/") },
-                { label: "Copy GitHub URL", onClick: () => navigator.clipboard.writeText("https://github.com/naveengullipalli") }
+                { label: "Copy GitHub URL", onClick: () => navigator.clipboard.writeText("https://github.com/naveengullipalli317") }
               ]
             },
             {
@@ -429,7 +429,7 @@ const App = () => {
             {
               label: "Help", items: [
                 { label: "Portfolio Help", onClick: () => toggleWindow('help') },
-                { label: "Contact Developer", onClick: () => window.location.href = 'mailto:naveen.gullipalli29@gmail.com' }
+                { label: "Contact Developer", onClick: () => window.location.href = 'mailto:Naveengullipalli317@gmail.com' }
               ]
             }
           ].map(menu => (
@@ -750,7 +750,7 @@ const App = () => {
 
             <div className="h-10 w-[1px] bg-white/20 mx-1.5" />
 
-            <a href="https://github.com/naveengullipalli" target="_blank" rel="noopener noreferrer" className="w-14 h-14 bg-black/40 backdrop-blur-2xl border border-white/10 rounded-[18px] flex items-center justify-center shadow-lg hover:-translate-y-5 hover:scale-[1.3] transition-all group relative border-white/20">
+            <a href="https://github.com/naveengullipalli317" target="_blank" rel="noopener noreferrer" className="w-14 h-14 bg-black/40 backdrop-blur-2xl border border-white/10 rounded-[18px] flex items-center justify-center shadow-lg hover:-translate-y-5 hover:scale-[1.3] transition-all group relative border-white/20">
               <Github className="w-7 h-7 text-white" />
               <div className="absolute -top-14 left-1/2 -translate-x-1/2 bg-white text-[#1d1d1f] text-[11px] font-black py-1.5 px-3.5 rounded-xl opacity-0 group-hover:opacity-100 transition-all shadow-2xl border border-black/5">GitHub</div>
             </a>

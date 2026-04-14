@@ -4,11 +4,11 @@ import { Monitor, Award } from 'lucide-react';
 const Education = ({ searchQuery = "", viewMode = "list" }) => {
     const educationData = [
         {
-            org: "Otto-Von-Guericke-Universität",
-            degree: "Master of Science - Digital Engineering",
+            org: "Otto-Von-Guericke-Universität, Magdeburg, Germany",
+            degree: "Master of Science in Digital Engineering (Computer Science)",
             detail: "Grade: 2.5",
             period: "2023",
-            location: "Magdeburg, Germany",
+            location: "Germany",
             color: "text-[#007AFF]",
             border: "border-[#007AFF]"
         }
@@ -18,7 +18,7 @@ const Education = ({ searchQuery = "", viewMode = "list" }) => {
         {
             org: "FWAI - Freedom with AI Masterclass",
             degree: "AI fundamentals and prompt engineering using ChatGPT",
-            detail: "Understanding AI Fundamentals & Model Processing",
+            detail: "Prompt Engineering & Model Fine-tuning",
             period: "2024",
             color: "text-[#AF52DE]",
             border: "border-[#AF52DE]"
@@ -26,7 +26,7 @@ const Education = ({ searchQuery = "", viewMode = "list" }) => {
         {
             org: "AWS Skill Builder",
             degree: "Introduction to Containers",
-            detail: "Docker Fundamentals & Containerization",
+            detail: "Docker & Containerization for Scalability",
             period: "2022",
             color: "text-[#FF9500]",
             border: "border-[#FF9500]"
@@ -34,7 +34,7 @@ const Education = ({ searchQuery = "", viewMode = "list" }) => {
         {
             org: "Codecademy",
             degree: "Python 3",
-            detail: "Modular Programming & Data Structures",
+            detail: "Core Python & Data Structures",
             period: "2022",
             color: "text-[#34C759]",
             border: "border-[#34C759]"
@@ -42,7 +42,7 @@ const Education = ({ searchQuery = "", viewMode = "list" }) => {
         {
             org: "Udemy",
             degree: "Angular & NodeJS - The MEAN Stack Guide",
-            detail: "Full-Stack Development & REST API Design",
+            detail: "Full-Stack Development & RESTful API Design",
             period: "2021",
             color: "text-[#FF2D55]",
             border: "border-[#FF2D55]"
