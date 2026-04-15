@@ -29,7 +29,7 @@ const Contact = ({ searchQuery = "", viewMode = "list" }) => {
         { label: "Email", icon: <Mail className="w-4 h-4" />, bg: "bg-[#007AFF]", link: "mailto:Naveengullipalli317@gmail.com", external: false },
         { label: "LinkedIn", icon: <Linkedin className="w-4 h-4" />, bg: "bg-[#0077B5]", link: "https://www.linkedin.com/in/naveen-gullipalli/", external: true },
         { label: "GitHub", icon: <Github className="w-4 h-4" />, bg: "bg-[#1d1d1f]", link: "https://github.com/naveengullipalli317", external: true },
-        { label: "Address", icon: <MapPin className="w-4 h-4" />, bg: "bg-[#FF3B30]", link: "https://maps.google.com/?q=Bachupally", external: true }
+        { label: "Address", icon: <MapPin className="w-4 h-4" />, bg: "bg-[#FF3B30]", link: "https://maps.google.com/?q=S+V+Nilayam,+Road+No+6,+Kranthi+Nagar+Colony,+Bachupally+-+50090", external: true }
     ];
 
     const filtered = contacts.filter(c =>

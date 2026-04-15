@@ -43,7 +43,7 @@ const Skills = ({ searchQuery = "", viewMode = "grid" }) => {
         {
             title: "AI & Machine Learning",
             skills: [
-                { name: "LLMs Integration", val: 95, color: "bg-[#FF9500]" },
+                { name: "Large Language Models (LLMs) Integration", val: 95, color: "bg-[#FF9500]" },
                 { name: "YOLO v3 for Image Object Detection", val: 90, color: "bg-[#FF3B30]" },
                 { name: "Pre-trained ML Models Deployment", val: 85, color: "bg-[#FFCC00]" }
             ]
@@ -68,15 +68,25 @@ const Skills = ({ searchQuery = "", viewMode = "grid" }) => {
             ]
         },
         {
-            title: "Workflow & Portfolio Tools",
+            title: "Version Control",
             skills: [
                 { name: "Bitbucket", val: 95, color: "bg-[#24292E]" },
-                { name: "GitHub", val: 95, color: "bg-[#24292E]" },
+                { name: "GitHub", val: 95, color: "bg-[#24292E]" }
+            ]
+        },
+        {
+            title: "Project Management & Collaboration",
+            skills: [
                 { name: "Slack", val: 90, color: "bg-[#4A154B]" },
                 { name: "ClickUp", val: 90, color: "bg-[#4A154B]" },
                 { name: "Jira", val: 90, color: "bg-[#4A154B]" },
-                { name: "ZOHO", val: 85, color: "bg-[#4A154B]" },
-                { name: "Swagger (API Documentation)", val: 90, color: "bg-[#85EA2D]" }
+                { name: "ZOHO", val: 85, color: "bg-[#4A154B]" }
+            ]
+        },
+        {
+            title: "API Documentation",
+            skills: [
+                { name: "Swagger", val: 90, color: "bg-[#85EA2D]" }
             ]
         }
     ];

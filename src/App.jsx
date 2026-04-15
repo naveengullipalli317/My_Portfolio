@@ -234,7 +234,7 @@ const App = () => {
       icon: <TerminalIcon className="w-10 h-10" />,
       theme: "from-[#1d1d1f] to-[#3a3a3c]",
       content: <Skills />,
-      items: ["JavaScript", "TypeScript", "Node.js", "Express", "MongoDB", "AWS Lambda", "AWS ECR", "AWS Cognito", "Docker", "Microservices", "RESTful API", "Xano", "PostgreSQL", "React", "Vue.js", "GraphQL", "Swagger", "Jira", "Bitbucket", "Serverless", "YOLO v3", "LLMs", "Machine Learning"]
+      items: ["JavaScript", "TypeScript", "Node.js", "Express", "MongoDB", "AWS Lambda", "AWS ECR", "AWS Cognito", "Docker", "Microservices", "RESTful API", "Xano", "PostgreSQL", "React", "Vue.js", "GraphQL", "Swagger", "Jira", "Bitbucket", "Serverless", "YOLO v3", "LLMs", "Machine Learning", "Version Control", "Project Management", "Collaboration", "Slack", "ClickUp", "ZOHO"]
     },
     projects: {
       title: "Projects",
@@ -248,14 +248,14 @@ const App = () => {
       icon: <Briefcase className="w-7 h-7" />,
       theme: "from-[#FF9500] to-[#FFCC00]",
       content: <Experience />,
-      items: ["Senior Backend Engineer", "Software developer", "Associate Developer", "Teaching Assistant", "Hiringhood", "Must Analytics", "Lodgit Desk", "Otto-Von-Guericke", "Hyderabad", "Berlin", "Leipzig", "Magdeburg"]
+      items: ["Lead Software Engineer", "Backend", "AI", "Cloud Systems", "Senior Backend Engineer", "Software developer", "Associate Developer", "Teaching Assistant", "Hiringhood", "Must Analytics", "Lodgit Desk", "Otto-Von-Guericke", "Hyderabad", "Berlin", "Leipzig", "Magdeburg", "C2C Hiring", "Resume Parser", "LLMs", "YOLO v3"]
     },
     education: {
       title: "Education",
       icon: <EducationIcon className="w-full h-full" />,
       theme: "from-[#FFC857] to-[#FF8235]",
       content: <Education />,
-      items: ["Otto-Von-Guericke-Universität", "Master of Science", "Digital Engineering", "Magdeburg", "Germany", "Certifications", "FWAI", "AWS Skill Builder", "Codecademy", "Udemy", "Prompt Engineering", "Python 3", "MEAN Stack"]
+      items: ["Otto-Von-Guericke-Universität", "Master of Science", "Digital Engineering", "Magdeburg", "Germany", "Certifications", "FWAI", "AWS Skill Builder", "Codecademy", "Udemy", "Prompt Engineering", "Python 3", "MEAN Stack", "Containers", "Docker", "Machine Learning", "Resume WaterMarker", "Resume Parser", "Recruiter Co-Pilot", "Angular", "Node.js", "MongoDB", "Express", "JWT", "OAuth", "Database Concepts", "Transaction Processing", "Data Management"]
     },
     contact: {
       title: "Contact",
@@ -391,7 +391,7 @@ const App = () => {
             },
             {
               label: "Edit", items: [
-                { label: "Copy Bio", onClick: () => navigator.clipboard.writeText("Lead Software Engineer with 4+ years of experience in backend and full-stack development. Skilled in JavaScript, Node.js, Express, MongoDB, AWS, and no-code platforms.") },
+                { label: "Copy Bio", onClick: () => navigator.clipboard.writeText("Software Developer with 4+ years of experience in backend and full-stack development. Skilled in JavaScript, Node.js, Express, MongoDB, AWS, and no-code platforms (Xano, Bubble, Flutterflow). Experienced in building scalable REST APIs, serverless applications, and deploying ML models.") },
                 { label: "Copy Email", onClick: () => navigator.clipboard.writeText("Naveengullipalli317@gmail.com") },
                 { label: "Copy LinkedIn URL", onClick: () => navigator.clipboard.writeText("https://www.linkedin.com/in/naveen-gullipalli/") },
                 { label: "Copy GitHub URL", onClick: () => navigator.clipboard.writeText("https://github.com/naveengullipalli317") }
@@ -462,17 +462,17 @@ const App = () => {
             </div>
           ))}
         </div>
-        <div className="flex items-center gap-4 relative">
-          <div className="flex items-center gap-3 opacity-80">
+        <div className="flex items-center gap-2 md:gap-4 relative">
+          <div className="flex items-center gap-2 md:gap-3 opacity-80">
             <div className="relative">
               <Wifi
                 onClick={(e) => { e.stopPropagation(); setIsWifiOpen(!isWifiOpen); }}
-                className={`w-4 h-4 cursor-pointer hover:opacity-100 transition-opacity ${isWifiOpen ? 'opacity-100' : 'opacity-80'}`}
+                className={`w-3.5 h-3.5 md:w-4 md:h-4 cursor-pointer hover:opacity-100 transition-opacity ${isWifiOpen ? 'opacity-100' : 'opacity-80'}`}
               />
               {/* Wifi Dropdown */}
               {isWifiOpen && (
                 <div
-                  className="absolute top-8 right-0 w-[240px] bg-white/90 backdrop-blur-[50px] border border-white/40 rounded-[20px] shadow-[0_20px_40px_rgba(0,0,0,0.2)] p-4 z-[1000] animate-in fade-in zoom-in-95 duration-150"
+                  className="absolute top-8 right-[-40px] md:right-0 w-[240px] bg-white/90 backdrop-blur-[50px] border border-white/40 rounded-[20px] shadow-[0_20px_40px_rgba(0,0,0,0.2)] p-4 z-[1000] animate-in fade-in zoom-in-95 duration-150"
                   onClick={(e) => e.stopPropagation()}
                 >
                   <div className="flex flex-col gap-3">
@@ -497,11 +497,11 @@ const App = () => {
             <div className="relative">
               <BatteryFull
                 onClick={(e) => { e.stopPropagation(); setIsBatteryOpen(!isBatteryOpen); }}
-                className="w-4 h-4 text-white fill-white cursor-pointer hover:opacity-100 transition-opacity"
+                className="w-3.5 h-3.5 md:w-4 md:h-4 text-white fill-white cursor-pointer hover:opacity-100 transition-opacity"
               />
               {/* Battery Dropdown */}
               {isBatteryOpen && (
-                <div className="absolute top-8 right-0 w-[220px] bg-white/90 backdrop-blur-[50px] border border-white/40 rounded-[20px] shadow-2xl p-4 z-[1000] animate-in fade-in zoom-in-95 duration-150 text-[#1d1d1f]">
+                <div className="absolute top-8 right-[-20px] md:right-0 w-[220px] bg-white/90 backdrop-blur-[50px] border border-white/40 rounded-[20px] shadow-2xl p-4 z-[1000] animate-in fade-in zoom-in-95 duration-150 text-[#1d1d1f]">
                   <div className="flex flex-col gap-2">
                     <div className="flex justify-between items-center">
                       <span className="text-[13px] font-black">Battery</span>
@@ -652,12 +652,12 @@ const App = () => {
             <div
               key={key}
               onClick={() => setFocusedWindow(key)}
-              className={`absolute transition-all duration-500 ease-[cubic-bezier(0.23,1,0.32,1)] flex flex-col bg-white/85 backdrop-blur-[60px] rounded-[32px] border border-white/40 shadow-[0_30px_90px_rgba(0,0,0,0.4)] overflow-hidden
+              className={`absolute transition-all duration-500 ease-[cubic-bezier(0.23,1,0.32,1)] flex flex-col bg-white/85 backdrop-blur-[60px] rounded-[24px] md:rounded-[32px] border border-white/40 shadow-[0_30px_90px_rgba(0,0,0,0.4)] overflow-hidden
                 ${isMinimized ? 'opacity-0 scale-50 translate-y-[100%] pointer-events-none' : (isFocused ? 'z-40 opacity-100' : 'z-20 opacity-60 pointer-events-none md:pointer-events-auto')} 
-                ${isMaximized ? 'w-[calc(100%-32px)] h-[calc(100%-120px)] left-4 top-12 rounded-[24px]' : 'w-[94%] left-[3%] md:w-[680px] md:left-[30%] top-[12%] rounded-[32px]'}`}
+                ${isMaximized ? 'w-[calc(100%-16px)] h-[calc(100%-100px)] left-2 top-10 md:w-[calc(100%-32px)] md:h-[calc(100%-120px)] md:left-4 md:top-12' : 'w-[96%] left-[2%] md:w-[680px] md:left-[30%] top-[9%] md:top-[12%]'}`}
               style={{
-                transform: !isMaximized ? `translate(${activeWindows.indexOf(key) * 30}px, ${activeWindows.indexOf(key) * 30}px)` : 'none',
-                height: !isMaximized ? '540px' : undefined
+                transform: !isMaximized && window.innerWidth > 768 ? `translate(${activeWindows.indexOf(key) * 30}px, ${activeWindows.indexOf(key) * 30}px)` : 'none',
+                height: !isMaximized ? (window.innerWidth < 768 ? 'calc(100% - 140px)' : '540px') : undefined
               }}
             >
               {/* Modern Unified Toolbar */}
@@ -720,18 +720,18 @@ const App = () => {
 
       {/* Sequoia Style Dock */}
       {!isDockHidden && (
-        <div className="fixed bottom-6 left-1/2 -translate-x-1/2 z-[200] animate-in slide-in-from-bottom duration-500">
-          <div className="bg-white/15 backdrop-blur-[40px] border border-white/20 rounded-[34px] p-3 flex items-center gap-3.5 shadow-[0_30px_60px_-15px_rgba(0,0,0,0.6)] ring-1 ring-white/10">
+        <div className="fixed bottom-4 md:bottom-6 left-1/2 -translate-x-1/2 z-[200] animate-in slide-in-from-bottom duration-500 w-[95%] md:w-auto overflow-x-auto md:overflow-visible no-scrollbar">
+          <div className="bg-white/15 backdrop-blur-[40px] border border-white/20 rounded-[24px] md:rounded-[34px] p-2 md:p-3 flex items-center justify-center gap-2 md:gap-3.5 shadow-[0_20px_40px_-10px_rgba(0,0,0,0.2)] md:shadow-[0_30px_60px_-15px_rgba(0,0,0,0.6)] ring-1 ring-white/10 mx-auto w-max px-4">
             {Object.keys(windowsMetadata).filter(key => key !== 'help').map((key) => (
               <button
                 key={key}
                 onClick={() => toggleWindow(key)}
-                className="relative group transition-all duration-300 hover:-translate-y-5 hover:scale-[1.3] active:scale-95 active:translate-y-0"
+                className="relative group transition-all duration-300 hover:-translate-y-5 hover:scale-[1.3] active:scale-95 active:translate-y-0 shrink-0"
               >
-                <div className={`w-14 h-14 rounded-[18px] p-0.5 bg-gradient-to-br ${windowsMetadata[key].theme} shadow-lg ring-1 ring-white/10 transition-all`}>
-                  <div className="w-full h-full rounded-[16px] bg-white/10 backdrop-blur-sm flex items-center justify-center text-white overflow-hidden">
+                <div className={`w-10 h-10 md:w-14 md:h-14 rounded-[12px] md:rounded-[18px] p-0.5 bg-gradient-to-br ${windowsMetadata[key].theme} shadow-lg ring-1 ring-white/10 transition-all`}>
+                  <div className="w-full h-full rounded-[10px] md:rounded-[16px] bg-white/10 backdrop-blur-sm flex items-center justify-center text-white overflow-hidden">
                     {React.cloneElement(windowsMetadata[key].icon, {
-                      className: (key === 'skills' || key === 'contact' || key === 'education') ? "w-full h-full" : "w-7 h-7"
+                      className: (key === 'skills' || key === 'contact' || key === 'education') ? "w-full h-full" : "w-5 h-5 md:w-7 md:h-7"
                     })}
                   </div>
                 </div>
@@ -743,15 +743,15 @@ const App = () => {
 
                 {/* Running Indicator Dot */}
                 {activeWindows.includes(key) && (
-                  <div className="absolute -bottom-2.5 left-1/2 -translate-x-1/2 w-1.5 h-1.5 bg-white rounded-full shadow-[0_0_10px_rgba(255,255,255,1)]" />
+                  <div className="absolute -bottom-2.5 left-1/2 -translate-x-1/2 w-1 h-1 md:w-1.5 md:h-1.5 bg-white rounded-full shadow-[0_0_10px_rgba(255,255,255,1)]" />
                 )}
               </button>
             ))}
 
-            <div className="h-10 w-[1px] bg-white/20 mx-1.5" />
+            <div className="h-6 w-[1px] md:h-10 md:w-[1px] bg-white/20 mx-1 md:mx-1.5 shrink-0" />
 
-            <a href="https://github.com/naveengullipalli317" target="_blank" rel="noopener noreferrer" className="w-14 h-14 bg-black/40 backdrop-blur-2xl border border-white/10 rounded-[18px] flex items-center justify-center shadow-lg hover:-translate-y-5 hover:scale-[1.3] transition-all group relative border-white/20">
-              <Github className="w-7 h-7 text-white" />
+            <a href="https://github.com/naveengullipalli317" target="_blank" rel="noopener noreferrer" className="w-10 h-10 md:w-14 md:h-14 bg-black/40 backdrop-blur-2xl border border-white/10 rounded-[12px] md:rounded-[18px] flex items-center justify-center shadow-lg hover:-translate-y-5 hover:scale-[1.3] transition-all group relative shrink-0 border-white/20">
+              <Github className="w-5 h-5 md:w-7 md:h-7 text-white" />
               <div className="absolute -top-14 left-1/2 -translate-x-1/2 bg-white text-[#1d1d1f] text-[11px] font-black py-1.5 px-3.5 rounded-xl opacity-0 group-hover:opacity-100 transition-all shadow-2xl border border-black/5">GitHub</div>
             </a>
           </div>

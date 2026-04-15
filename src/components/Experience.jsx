@@ -4,14 +4,14 @@ import { History, Briefcase } from 'lucide-react';
 const Experience = ({ searchQuery = "", viewMode = "list" }) => {
     const experiences = [
         {
-            role: "Senior Backend Engineer",
+            role: "Lead Software Engineer – Backend, AI & Cloud Systems",
             org: "Hiringhood, Hyderabad",
             type: "Full-time",
             period: "May 2023 - PRESENT",
             location: "Hyderabad",
             color: "text-[#007AFF]",
             bg: "bg-[#007AFF]/10",
-            desc: "Lead MERN application design, enforce best practices, and break down requirements into technical tasks. Architected end-to-end HR solutions, designed Smart Recruiter Applications (Resume WaterMarker, Parser, Talk to Resume, Role Mapper, Co-Pilot) using Node.js/Express, achieving 30% reduction in processing time. Integrated LLMs for screening automation, cutting data processing time by 40%. Implemented Agile/Scrum, mentored a team of 6 developers, and led cloud infrastructure with AWS Lambda and ECR."
+            desc: "Lead MERN application design, enforce best practices, and break down requirements into technical tasks. Architected end-to-end HR solutions, streamlining C2C hiring with intelligent algorithms for resume parsing and candidate matching. Designed Smart Recruiter Applications (Resume WaterMarker, Parser, Talk to Resume, Role Mapper, Co-Pilot) using Node.js/Express, achieving 30% reduction in processing time and 25% recruiter efficiency boost. Researched and integrated LLMs for screening automation, cutting data processing time by 40%. Implemented Agile/Scrum, mentored a team of 6 developers, and led cloud infrastructure with AWS Lambda and ECR."
         },
         {
             role: "Software developer",
@@ -21,7 +21,7 @@ const Experience = ({ searchQuery = "", viewMode = "list" }) => {
             location: "Berlin, Germany",
             color: "text-[#AF52DE]",
             bg: "bg-[#AF52DE]/10",
-            desc: "Developed full-stack web application for image object detection using Vue.js, Node.js, GraphQL, and Express. Researched and deployed Deep Learning YOLO v3 models on AWS, optimizing real-time performance. Implemented cost-effective AI solutions using AWS Lambda and Docker (ECR) for containerized processing."
+            desc: "Developed full-stack web application for image object detection using Vue.js, Node.js, GraphQL, and Express. Researched and deployed Deep Learning models, conducting EU cloud study leading to YOLO v3 integration on AWS, optimizing real-time performance. Implemented cost-effective AI solutions using AWS Lambda for scalable execution and Docker (ECR) for containerized processing."
         },
         {
             role: "Associate Developer",
@@ -31,7 +31,7 @@ const Experience = ({ searchQuery = "", viewMode = "list" }) => {
             location: "Leipzig, Germany",
             color: "text-[#34C759]",
             bg: "bg-[#34C759]/10",
-            desc: "Researched automated locking mechanisms and analyzed communication protocols (Bluetooth, Wi-Fi, NFC, ZigBee) for check-in data. Designed and developed automated check-in systems integrating hotel software with smart locking and guest authentication, improving user experience."
+            desc: "Researched automated locking mechanisms and analyzed communication protocols (Bluetooth, Wi-Fi, NFC, ZigBee) for check-in data. Designed and developed an automated check-in system integrating Lodgit Desk hotel software with smart locking and guest authentication, enhancing hotel operations and user experience."
         },
         {
             role: "Teaching Assistant",
@@ -41,7 +41,7 @@ const Experience = ({ searchQuery = "", viewMode = "list" }) => {
             location: "Magdeburg, Germany",
             color: "text-[#FF9500]",
             bg: "bg-[#FF9500]/10",
-            desc: "Conducted hands-on training in SQL and MySQL, guiding students in database management and query optimization. Led weekly exercise classes for 30 students using SQL Developer, master core database concepts, indexing, and best practices."
+            desc: "Conducted hands-on training in SQL and MySQL, guiding students in database management and query optimization. Led weekly exercise classes for 30 students using SQL Developer, master core database concepts, indexing, stored procedures, and best practices for efficient execution."
         }
     ];
 
